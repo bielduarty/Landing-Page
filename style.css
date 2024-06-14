@@ -1,0 +1,157 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Define a fonte principal */
+    margin: 0;
+    /* Remove a margem padrão */
+    padding: 0;
+    /* Remove o preenchimento padrão */
+    background-color: #f4f4f4;
+    /* Define a cor de fundo */
+    color: #333;
+    /* Define a cor do texto */
+    background: rgb(168, 168, 168);
+    background: linear-gradient(0deg, rgba(168, 168, 168, 1) 0%, rgba(9, 9, 121, 0.9332107843137255) 50%, rgba(0, 0, 0, 1) 100%);
+    /* precisa alterar essa cor no gradient */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    padding: 20px 0;
+    /* Adiciona preenchimento superior e inferior */
+    text-align: center;
+    /* Centraliza o conteúdo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra suave */
+}
+
+.logo img {
+    width: 150px;
+    /* Ajusta o tamanho do logo */
+}
+
+/* Estilos para o container principal */
+.container {
+    max-width: 1200px;
+    /* Define a largura máxima do container */
+    margin: 0 auto;
+    /* Centraliza o container na página */
+    padding: 20px;
+    /* Adiciona um preenchimento interno */
+}
+
+/* Estilos para as imagens */
+.image-container {
+    display: flex;
+    /* Usa um layout flexível para as imagens */
+    justify-content: space-around;
+    /* Distribui as imagens igualmente */
+    margin-top: 50px;
+    /* Adiciona margem superior */
+}
+
+.image-container div {
+    text-align: center;
+    /* Centraliza o conteúdo */
+}
+
+.image-container img {
+    max-width: 300px;
+    /* Define a largura máxima das imagens */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    border-radius: 10px;
+    /* Adiciona bordas arredondadas */
+    margin-bottom: 20px;
+    /* Adiciona margem inferior */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra suave */
+    transition: transform 0.3s ease-in-out;
+    /* Adiciona uma transição suave */
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+
+/* Estilos para o texto */
+.image-container p {
+    font-size: 20px;
+    /* Define o tamanho da fonte */
+    line-height: 2.0;
+    /* Define a altura da linha */
+    color: #ffffff;
+    /* Define a cor do texto */
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #000;
+    /* Define a cor de fundo */
+    color: #fff;
+    /* Define a cor do texto */
+    text-align: center;
+    /* Centraliza o conteudo */
+    padding: 20px 0;
+    /* Adiciona preenchimento superior e inferior */
+}
+
+.buy-now-button {
+    background-color: #FF4500;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    padding: 15px 32px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    text-decoration: none;
+    /* Remover sublinhado */
+    display: inline-block;
+    /* Mostrar como um bloco inline */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    margin: 4px 2px;
+    /* Margem */
+    cursor: pointer;
+    /* Cursor de ponteiro ao passar o mouse */
+    border: none;
+    /* Sem borda */
+    border-radius: 8px;
+    /* Cantos arredondados */
+    transition: background-color 0.3s;
+    /* Transição suave ao passar o mouse */
+}
+
+.buy-now-button:hover {
+    background-color: #FF6347;
+    /* Cor de fundo ao passar o mouse */
+}
+.search-container {
+    display: flex; /* Alinha os itens em uma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin-top: 50px; /* Espaçamento superior */
+}
+
+.search-input {
+    width: 300px; /* Largura da caixa de texto */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid #ccc; /* Borda */
+    border-radius: 4px 0 0 4px; /* Cantos arredondados (esquerdo) */
+}
+
+.search-button {
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #FF4500; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    border-radius: 0 4px 4px 0; /* Cantos arredondados (direito) */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+.search-button:hover {
+    background-color: #FF6347; /* Cor de fundo ao passar o mouse */
+}
